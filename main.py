@@ -134,6 +134,9 @@ def twitter_search(twitter_api, q, max_results=200, **kw):
     return statuses
 
 def clean_results(result, topic):
+    '''
+    To take required text for NLP, may change later as per the requirement
+    '''
     final = []
     for arr in result["statuses"]:
         obj = dict()
