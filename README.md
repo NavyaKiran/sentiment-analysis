@@ -4,8 +4,7 @@ Sentiment Analysis on Covid Vaccine
 
 How to start contributing? 
 
-1. Run pip install -U python-dotenv
-python -m pip install -r requirements.txt
+1. Python -m pip install -r requirements.txt
 2. Create a new file .env 
 3. Enter the values with the keys mentioned below
 
