@@ -3,6 +3,11 @@ import json
 import pymongo
 from dotenv import load_dotenv 
 import os 
+import pandas
+import preprocessor as p
+import numpy as np
+from textblob import TextBlob
+import seaborn as sns
 
 load_dotenv()                  
 
@@ -145,18 +150,19 @@ def clean_results(result, topic):
         obj["name"] = arr["user"]["name"]
         obj["location"] = arr["user"]["location"]
         obj["topic"] = topic
+        obj["created_at"] = arr["created_at"]
         obj["processed_on"] = datetime.datetime.now().isoformat(' ', 'seconds')
         final.append(obj)
     return final
 
 
-def save_tweets(tweets):
+def save_tweets(tweets, topic):
     '''
     This method will help us on saving tweets
     '''
     client = pymongo.MongoClient(mongo)
     database = client[db]
-    coll = database["smdm"]
+    coll = database[topic]
     try:
         result = coll.insert_many(tweets)
         print("done inserting")
@@ -169,30 +175,118 @@ def query_tweet(query, count, topic):
     Queries and finds tweet for different hashtags/topic, it will keep on searching until it finds total count
     '''
     api = oauth_login()
-    result = api.search.tweets(q=query, count=100)
+    result = api.search.tweets(q=query, count=500)
     print(result["search_metadata"])
-    save_tweets(clean_results(result, topic))
+    save_tweets(clean_results(result, topic), topic)
     result_count = result["search_metadata"]["count"]
     next_max_id = result["search_metadata"]["next_results"].split('max_id=')[1].split('&')[0]
     while result_count < count:
-        result = api.search.tweets(q=query, include_entities='true',max_id=next_max_id, count=100)
+        result = api.search.tweets(q=query, include_entities='true',max_id=next_max_id, count=500 )
         print(result["search_metadata"])
         print(result_count)
-        save_tweets(clean_results(result, topic))
+        save_tweets(clean_results(result, topic), topic)
         result_count += result["search_metadata"]["count"]
         if "next_results" in result["search_metadata"]:
             next_max_id = result["search_metadata"]["next_results"].split('max_id=')[1].split('&')[0]
         else:
             break
         
+def get_docs(col):
+    client = pymongo.MongoClient(mongo)
+    database = client[db]
+    coll = database[col]    
+    try:
+        result = coll.find()
+        arr = []
+        for r in result:
+            arr.append(r)
+        print("Retrieved" + col)
+        return arr
+    except Exception as e:
+        print(e)
+
+def remove_punctuations(text):
+    punct =['%','/',':','\\','&amp;','&',';']
+    for punctuation in punct:
+        text = text.replace(punctuation, '')
+    return text
+
+
+# Define function to get value counts
+def get_value_counts(col_name, analyzer_name, tweets_df):
+    count = pandas.DataFrame(tweets_df[col_name].value_counts())
+    percentage = pandas.DataFrame(tweets_df[col_name].value_counts(normalize=True).mul(100))
+    value_counts_df = pandas.concat([count, percentage], axis = 1)
+    value_counts_df = value_counts_df.reset_index()
+    value_counts_df.columns = ['sentiment', 'counts', 'percentage']
+    value_counts_df.sort_values('sentiment', inplace = True)
+    value_counts_df['percentage'] = value_counts_df['percentage'].apply(lambda x: round(x,2))
+    value_counts_df = value_counts_df.reset_index(drop = True)
+    value_counts_df['analyzer'] = analyzer_name
+    return value_counts_df
+
 def main():
     try:
         
-        topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
+        # topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
+        # topics = ["vaccinated"]
+        topics = ["ModernaVaccine"]
+        final = []
         for topic in topics:
-            query_tweet("#"+ topic+" -RT AND lang:en", 2000, topic)
+            # query_tweet("#"+ topic+" -RT AND lang:en", 10000, topic)
             # print(json.dumps(result, indent=1))
-            print("Done writing"+topic)            
+            # print("Done writing"+topic)           
+            result_from_db = get_docs(topic)
+            result = pandas.DataFrame(result_from_db)
+            result.sort_values(by="created_at")
+            print(result.head(n=5))
+            result_copy = result.copy()
+            result_copy['tweet_cleaned'] = result_copy['tweet'].apply(lambda x: p.clean(x))
+            # print(result.head(n=5))
+            print(result_copy.head(n=5))
+            print(len(result_copy))
+            result_copy.drop_duplicates(subset='tweet_cleaned', keep='first', inplace=True)
+            print(len(result_copy))
+
+            # remove punctuations
+            result_copy['tweet_cleaned'] = result_copy['tweet_cleaned'].apply(lambda x: remove_punctuations(x))
+
+            
+            # Drop tweets which have empty text field
+            result_copy['tweet_cleaned'].replace('', np.nan, inplace=True)
+            result_copy['tweet_cleaned'].replace(' ', np.nan, inplace=True)
+            result_copy.dropna(subset=['tweet_cleaned'], inplace=True)
+            print(len(result_copy))
+            # print(result_copy.head(n=5))
+
+            result_copy = result_copy.reset_index(drop=True)
+            print(result_copy.sample(5))
+
+
+            #sentiment analysis
+            # Obtain polarity scores generated by TextBlob
+            result_copy['textblob_score'] = result_copy['tweet_cleaned'].apply(lambda x: TextBlob(x).sentiment.polarity)
+            # neutral_thresh = 0.05
+
+            # Convert polarity score into sentiment categories
+            result_copy['textblob_sentiment'] = result_copy['textblob_score'].apply(lambda c: 'Positive' if c >= 0.05 else ('Negative' if c <= -(0.05) else 'Neutral'))
+            # print(result_copy['textblob_sentiment'].describe())
+            
+            textblob_sentiment_df = get_value_counts('textblob_sentiment','TextBlob', result_copy)
+            # print(textblob_sentiment_df)
+            
+            final.append(textblob_sentiment_df)
+        print(final)
+
+        sns.set_theme(style="dark")
+        ax = sns.barplot(x="sentiment", y="percentage", data=textblob_sentiment_df)
+        ax.set_title('TextBlob')
+
+        for textblob_sentiment_df1 in final:
+            for index, row in textblob_sentiment_df1.iterrows():
+                ax.text(row.name,row.percentage, round(row.percentage,1), color='black', ha="center")
+
+
     except Exception as e:
         print(e)
 
