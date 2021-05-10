@@ -212,30 +212,41 @@ def remove_punctuations(text):
     return text
 
 
-# Define function to get value counts
+
 def get_value_counts(col_name, analyzer_name, tweets_df):
+    '''
+    This function returns count of the dataset passed, it uses pands library to do the same
+    '''
     count = pandas.DataFrame(tweets_df[col_name].value_counts())
     percentage = pandas.DataFrame(tweets_df[col_name].value_counts(normalize=True).mul(100))
-    value_counts_df = pandas.concat([count, percentage], axis = 1)
-    value_counts_df = value_counts_df.reset_index()
-    value_counts_df.columns = ['sentiment', 'counts', 'percentage']
-    value_counts_df.sort_values('sentiment', inplace = True)
-    value_counts_df['percentage'] = value_counts_df['percentage'].apply(lambda x: round(x,2))
-    value_counts_df = value_counts_df.reset_index(drop = True)
-    value_counts_df['analyzer'] = analyzer_name
-    return value_counts_df
+    counts = pandas.concat([count, percentage], axis = 1)
+    counts = counts.reset_index()
+    counts.columns = ['sentiment', 'counts', 'percentage']
+    counts.sort_values('sentiment', inplace = True)
+    counts['percentage'] = counts['percentage'].apply(lambda x: round(x,2))
+    counts = counts.reset_index(drop = True)
+    counts['analyzer'] = analyzer_name
+    return counts
 
-def main():
+
+def fetch_tweets():
+    '''
+    This method fetches and stores the tweets for the last seven days and store it in the mongodb
+    '''
     try:
-        
-        # topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
-        # topics = ["vaccinated"]
-        topics = ["ModernaVaccine"]
-        final = []
+        topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
         for topic in topics:
-            # query_tweet("#"+ topic+" -RT AND lang:en", 10000, topic)
-            # print(json.dumps(result, indent=1))
-            # print("Done writing"+topic)           
+            query_tweet("#"+ topic+" -RT AND lang:en", 10000, topic)
+        print("Done fetching tweets")
+    except Exception as e:
+        print(e)
+
+
+def generate_report():
+    try:
+        topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
+        final = []
+        for topic in topics:          
             result_from_db = get_docs(topic)
             result = pandas.DataFrame(result_from_db)
             result.sort_values(by="created_at")
@@ -251,7 +262,6 @@ def main():
             # remove punctuations
             result_copy['tweet_cleaned'] = result_copy['tweet_cleaned'].apply(lambda x: remove_punctuations(x))
 
-            
             # Drop tweets which have empty text field
             result_copy['tweet_cleaned'].replace('', np.nan, inplace=True)
             result_copy['tweet_cleaned'].replace(' ', np.nan, inplace=True)
@@ -290,6 +300,12 @@ def main():
     except Exception as e:
         print(e)
 
+def vader_report():
+    try:
+        print("vader")
+    except Exception as e:
+        print(e)
+
 if __name__ == '__main__':
-    main()
+    generate_report()
     
