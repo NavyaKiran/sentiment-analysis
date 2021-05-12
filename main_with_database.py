@@ -252,7 +252,7 @@ def location_report():
         pass
 
 if __name__ == '__main__':
-    fetch_tweets()
+    # fetch_tweets()
     # generate_report()
-    # get_docs_csv()
+    get_docs_csv()
     
