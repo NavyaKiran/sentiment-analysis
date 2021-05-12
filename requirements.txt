@@ -1,3 +1,4 @@
 python-dotenv==0.17.0
 twitter==1.18.0
 pymongo==3.11.3
+pandas==1.2.4
