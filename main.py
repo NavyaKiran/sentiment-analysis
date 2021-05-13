@@ -17,7 +17,7 @@ load_dotenv()
 mongo = os.environ.get('mongo')
 db = os.environ.get('db')
 topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
-hashtags = {'JohnsonAndJohnsonVaccine': ['JnJVaccine', 'JnJ', 'JohnsonAndJohnsonVaccine'],
+hashtags = {'JohnsonAndJohnsonVaccine': ['JnJVaccine',  'JohnsonAndJohnsonVaccine'],
             'PfizerVaccine': ['PfizerVaccine', 'Pfizer'],
             'ModernaVaccine': ['ModernaVaccine', 'Moderna'],
             'Vaccinated': ['Vaccinated']
@@ -213,114 +213,106 @@ def generate_report():
                 ax.text(row.name,row.percentage, round(row.percentage,1), color='black', ha="center")
         sns.barplot(x="sentiment", y="percentage", data=final_bar[2], ax=ax)
 
-        plt.show()
+        # plt.show()
 
         #worldcloud
-        #vaccinated
-        comment_words = ''
-        stopwords = set(STOPWORDS)
-        result_copy['Vaccinated'].head(10)
-        for topic in topics:
-            for val in result_copy[topic].values:
-                row = val[7]
-                # print(row)
-                tokens = row.split()
-                # Converts each token into lowercase
-                for i in range(len(tokens)):
-                    tokens[i] = tokens[i].lower()
+        # #vaccinated
+        # comment_words = ''
+        # stopwords = set(STOPWORDS)
+        # result_copy['JohnsonAndJohnsonVaccine'].head(10)
+        # for topic in topics:
+        #     for val in result_copy[topic].values:
+        #         row = val[7]
+        #         # print(row)
+        #         tokens = row.split()
+        #         # Converts each token into lowercase
+        #         for i in range(len(tokens)):
+        #             tokens[i] = tokens[i].lower()
                 
-                comment_words += " ".join(tokens)+" "
-            wordcloud = WordCloud(width = 800, height = 800,
-                            background_color ='black',
-                            stopwords = stopwords,
-                            min_font_size = 10).generate(comment_words)
-            plt.figure(figsize = (8, 8), facecolor = None)
-            plt.imshow(wordcloud)
-            plt.axis("off")
-            plt.tight_layout(pad = 0)
+        #         comment_words += " ".join(tokens)+" "
+        #     wordcloud = WordCloud(width = 800, height = 800,
+        #                     background_color ='black',
+        #                     stopwords = stopwords,
+        #                     min_font_size = 10).generate(comment_words)
+        #     plt.figure(figsize = (8, 8), facecolor = None)
+        #     plt.imshow(wordcloud)
+        #     plt.axis("off")
+        #     plt.tight_layout(pad = 0)
             
-            plt.show()
-            return result_copy
-
-    except Exception as e:
-        print(e)
-
-def location_report(result_copy):
-    try:
-        # state_codes = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", 
-        #   "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", 
-        #   "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", 
-        #   "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
-                
-        states_mapping = { "Alabama": "AL", "Alaska": "AK", "Arizona" : "AZ", "Arkansas": "AR", "California": "CA", 
-            "Colorado": "CO", "Connecticut": "CT", "Washington DC": "DC", "Delaware": "DE", "Florida": "FL", 
-            "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", 
-            "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD", 
-            "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS", 
-            "Missouri": "MO", "Montana": "MT", "Nebraska": "NE", "Nevada": "NV", "New Hampshire": "NH", 
-            "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", 
-            "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK", "Oregon": "OR", "Pennsylvania": "PA", 
-            "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", "Tennessee": "TN", 
-            "Texas": "TX", "Utah": "UT", "Vermont": "VT", "Virginia": "VA", "Washington": "WA",  
-            "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY" }
-
-        for topic in topics:
-            for index, row in result_copy[topic].iterrows():
-                flag = 0
-                if row.location:
-                    location_split = str(row.location).split(',')
-                    for word in location_split:
-                        word = word.strip()
-                        for state, code in states_mapping.items():
-                            if state == word.title() or code == word:
-                                result_copy[topic].at[index, 'states'] = code
-                                flag = 1
-                                break
-                        if flag == 1:
-                            break
+        #     plt.show()
         return result_copy
+
     except Exception as e:
         print(e)
 
 def plot_map(result_copy):
+    state_codes = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", 
+          "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", 
+          "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", 
+          "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+        
+    states_mapping = { "Alabama": "AL", "Alaska": "AK", "Arizona" : "AZ", "Arkansas": "AR", "California": "CA", 
+        "Colorado": "CO", "Connecticut": "CT", "Washington DC": "DC", "Delaware": "DE", "Florida": "FL", 
+        "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", 
+        "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD", 
+        "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS", 
+        "Missouri": "MO", "Montana": "MT", "Nebraska": "NE", "Nevada": "NV", "New Hampshire": "NH", 
+        "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", 
+        "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK", "Oregon": "OR", "Pennsylvania": "PA", 
+        "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", "Tennessee": "TN", 
+        "Texas": "TX", "Utah": "UT", "Vermont": "VT", "Virginia": "VA", "Washington": "WA",  
+        "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY" }
+    # print(df_states)
+
+
+    for topic in topics:
+        for index, row in result_copy[topic].iterrows():
+            flag = 0
+            if row.location:
+                location_split = str(row.location).split(',')
+                for word in location_split:
+                    word = word.strip()
+                    for state, code in states_mapping.items():
+                        if state == word.title() or code == word:
+                            result_copy[topic].at[index, 'us_state_code'] = code
+                            result_copy[topic].at[index, 'us_state'] = state
+                            flag = 1
+                            break
+                    if flag == 1:
+                        break
+
     result_states = {}
     for topic in topics:
-        result_states[topic] = result_copy[topic][result_copy[topic]['states'].notna()]
-    
-    return result_states
-    # import plotly.figure_factory as ff
+        result_states[topic] = result_copy[topic][result_copy[topic]['us_state_code'].notna()]
 
-    # df_sample = pandas.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/laucnty16.csv')
-    # df_sample['State FIPS Code'] = df_sample['State FIPS Code'].apply(lambda x: str(x).zfill(2))
-    # df_sample['County FIPS Code'] = df_sample['County FIPS Code'].apply(lambda x: str(x).zfill(3))
-    # df_sample['FIPS'] = df_sample['State FIPS Code'] + df_sample['County FIPS Code']
 
-    # colorscale = ["#f7fbff","#ebf3fb","#deebf7","#d2e3f3","#c6dbef","#b3d2e9","#9ecae1",
-    #             "#85bcdb","#6baed6","#57a0ce","#4292c6","#3082be","#2171b5","#1361a9",
-    #             "#08519c","#0b4083","#08306b"]
-    # endpts = list(np.linspace(1, 12, len(colorscale) - 1))
-    # fips = df_sample['FIPS'].tolist()
-    # values = df_sample['Unemployment Rate (%)'].tolist()
+    topic = 'PfizerVaccine'
+    print(len(result_states[topic]))
+    result_states[topic]['us_state_code'].head(10)
+    df_states_pfizer = result_states[topic].groupby(['us_state_code','textblob_sentiment']).agg(['count'])
+    print(df_states_pfizer.value_counts(['textblob_sentiment']).head(100))
 
-    # fig = ff.create_choropleth(
-    #     fips=fips, values=values,
-    #     binning_endpoints=endpts,
-    #     colorscale=colorscale,
-    #     show_state_data=False,
-    #     show_hover=True, centroid_marker={'opacity': 0},
-    #     asp=2.9, title='USA by Unemployment %',
-    #     legend_title='% unemployed'
-    # )
 
-    # fig.layout.template = None
-    # fig.show()
+    df_states = dict()
+    df_states.setdefault('Positive')
+    # Positive, Negative, Neutral
+    for i in state_codes:
+        df_states.setdefault(i, 0)
+        df_states.setdefault('Positive', 0)
+        df_states.setdefault('Negative', 0)
+        df_states.setdefault('Neutral', 0)
 
-    
+    # for index, row in df_states_pfizer.iterrows():
+        
+    for row, index in df_states_pfizer.iterrows():
+        print(row)
+
+
 
 if __name__ == '__main__':
     # fetch_tweets()
     result_copy = generate_report()
     # result_copy = location_report(result_copy)
-    plot_map([])
+    plot_map(result_copy)
     # print(result_copy['PfizerVaccine'].head(10)
     # get_docs_csv()
