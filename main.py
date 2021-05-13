@@ -183,7 +183,7 @@ def generate_report():
             # neutral_thresh = 0.05
 
             # Convert polarity score into sentiment categories
-            result_copy[topic]['textblob_sentiment'] = result_copy[topic]['textblob_score'].apply(lambda c: 'Positive' if c >= 0.05 else ('Negative' if c <= -(0.05) else 'Neutral'))
+            result_copy[topic]['textblob_sentiment'] = result_copy[topic]['textblob_score'].apply(lambda c: 'Positive' if c >= 0.1 else ('Negative' if c <= -(0.1) else 'Neutral'))
             
             textblob_sentiment_df = get_value_counts('textblob_sentiment','TextBlob', result_copy[topic])
 
@@ -240,43 +240,87 @@ def generate_report():
             plt.tight_layout(pad = 0)
             
             plt.show()
+            return result_copy
 
     except Exception as e:
         print(e)
 
-def vader_report():
+def location_report(result_copy):
     try:
-        print("vader")
-    except Exception as e:
-        print(e)
-
-def location_report():
-    try:
-        # states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", 
+        # state_codes = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", 
         #   "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", 
         #   "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", 
-        #   "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "NONE"]
-        
-        statesMapping = { "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona" , "AR": "Arkansas", "CA": "California",
-            "CO": "Colorado", "CT": "Connecticut", "DC": "Washington DC", "DE": "Delaware", "FL": "Florida", 
-            "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", 
-            "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", 
-            "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", 
-            "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", 
-            "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", 
-            "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", 
-            "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", 
-            "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", 
-            "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming", "":"None"
-            }
-        
+        #   "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+                
+        states_mapping = { "Alabama": "AL", "Alaska": "AK", "Arizona" : "AZ", "Arkansas": "AR", "California": "CA", 
+            "Colorado": "CO", "Connecticut": "CT", "Washington DC": "DC", "Delaware": "DE", "Florida": "FL", 
+            "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", 
+            "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD", 
+            "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS", 
+            "Missouri": "MO", "Montana": "MT", "Nebraska": "NE", "Nevada": "NV", "New Hampshire": "NH", 
+            "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", 
+            "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK", "Oregon": "OR", "Pennsylvania": "PA", 
+            "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", "Tennessee": "TN", 
+            "Texas": "TX", "Utah": "UT", "Vermont": "VT", "Virginia": "VA", "Washington": "WA",  
+            "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY" }
 
-        
-
+        for topic in topics:
+            for index, row in result_copy[topic].iterrows():
+                flag = 0
+                if row.location:
+                    location_split = str(row.location).split(',')
+                    for word in location_split:
+                        word = word.strip()
+                        for state, code in states_mapping.items():
+                            if state == word.title() or code == word:
+                                result_copy[topic].at[index, 'states'] = code
+                                flag = 1
+                                break
+                        if flag == 1:
+                            break
+        return result_copy
     except Exception as e:
-        pass
+        print(e)
+
+def plot_map(result_copy):
+    result_states = {}
+    for topic in topics:
+        result_states[topic] = result_copy[topic][result_copy[topic]['states'].notna()]
+    
+    return result_states
+    # import plotly.figure_factory as ff
+
+    # df_sample = pandas.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/laucnty16.csv')
+    # df_sample['State FIPS Code'] = df_sample['State FIPS Code'].apply(lambda x: str(x).zfill(2))
+    # df_sample['County FIPS Code'] = df_sample['County FIPS Code'].apply(lambda x: str(x).zfill(3))
+    # df_sample['FIPS'] = df_sample['State FIPS Code'] + df_sample['County FIPS Code']
+
+    # colorscale = ["#f7fbff","#ebf3fb","#deebf7","#d2e3f3","#c6dbef","#b3d2e9","#9ecae1",
+    #             "#85bcdb","#6baed6","#57a0ce","#4292c6","#3082be","#2171b5","#1361a9",
+    #             "#08519c","#0b4083","#08306b"]
+    # endpts = list(np.linspace(1, 12, len(colorscale) - 1))
+    # fips = df_sample['FIPS'].tolist()
+    # values = df_sample['Unemployment Rate (%)'].tolist()
+
+    # fig = ff.create_choropleth(
+    #     fips=fips, values=values,
+    #     binning_endpoints=endpts,
+    #     colorscale=colorscale,
+    #     show_state_data=False,
+    #     show_hover=True, centroid_marker={'opacity': 0},
+    #     asp=2.9, title='USA by Unemployment %',
+    #     legend_title='% unemployed'
+    # )
+
+    # fig.layout.template = None
+    # fig.show()
+
+    
 
 if __name__ == '__main__':
-    fetch_tweets()
-    generate_report()
+    # fetch_tweets()
+    result_copy = generate_report()
+    # result_copy = location_report(result_copy)
+    plot_map([])
+    # print(result_copy['PfizerVaccine'].head(10)
     # get_docs_csv()

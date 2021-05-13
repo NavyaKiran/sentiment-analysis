@@ -1,0 +1,607 @@
+20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+300
+done inserting
+{'completed_in': 0.118, 'max_id': 1392121792244944896, 'max_id_str': '1392121792244944896', 'next_results': '?max_id=1392090704441225218&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392121792244944896&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+400
+done inserting
+{'completed_in': 0.139, 'max_id': 1392090704441225218, 'max_id_str': '1392090704441225218', 'next_results': '?max_id=1392051553607946244&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392090704441225218&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+500
+done inserting
+{'completed_in': 0.121, 'max_id': 1392051553607946244, 'max_id_str': '1392051553607946244', 'next_results': '?max_id=1392004103316807683&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392051553607946244&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+600
+done inserting
+{'completed_in': 0.114, 'max_id': 1392004103316807683, 'max_id_str': '1392004103316807683', 'next_results': '?max_id=1391966327166967810&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392004103316807683&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+700
+done inserting
+{'completed_in': 0.117, 'max_id': 1391966327166967810, 'max_id_str': '1391966327166967810', 'next_results': '?max_id=1391929802018357249&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391966327166967810&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+800
+done inserting
+{'completed_in': 0.113, 'max_id': 1391929802018357249, 'max_id_str': '1391929802018357249', 'next_results': '?max_id=1391896697878450175&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391929802018357249&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+900
+done inserting
+{'completed_in': 0.12, 'max_id': 1391896697878450175, 'max_id_str': '1391896697878450175', 'next_results': '?max_id=1391876979302019075&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391896697878450175&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1000
+done inserting
+{'completed_in': 0.114, 'max_id': 1391876979302019075, 'max_id_str': '1391876979302019075', 'next_results': '?max_id=1391869852646793219&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391876979302019075&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1100
+done inserting
+{'completed_in': 0.148, 'max_id': 1391869852646793219, 'max_id_str': '1391869852646793219', 'next_results': '?max_id=1391864839778316287&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391869852646793219&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1200
+done inserting
+{'completed_in': 0.117, 'max_id': 1391864839778316287, 'max_id_str': '1391864839778316287', 'next_results': '?max_id=1391817814068154368&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391864839778316287&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1300
+done inserting
+{'completed_in': 0.108, 'max_id': 1391817814068154368, 'max_id_str': '1391817814068154368', 'next_results': '?max_id=1391779167629348872&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391817814068154368&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1400
+done inserting
+{'completed_in': 0.116, 'max_id': 1391779167629348872, 'max_id_str': '1391779167629348872', 'next_results': '?max_id=1391736767464812545&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391779167629348872&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1500
+done inserting
+{'completed_in': 0.121, 'max_id': 1391736767464812545, 'max_id_str': '1391736767464812545', 'next_results': '?max_id=1391669616473042945&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391736767464812545&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1600
+done inserting
+{'completed_in': 0.119, 'max_id': 1391669616473042945, 'max_id_str': '1391669616473042945', 'next_results': '?max_id=1391592087456468992&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391669616473042945&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1700
+done inserting
+{'completed_in': 0.208, 'max_id': 1391592087456468992, 'max_id_str': '1391592087456468992', 'next_results': '?max_id=1391509374150008833&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391592087456468992&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1800
+done inserting
+{'completed_in': 0.123, 'max_id': 1391509374150008833, 'max_id_str': '1391509374150008833', 'next_results': '?max_id=1391442253223235587&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391509374150008833&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1900
+done inserting
+{'completed_in': 0.121, 'max_id': 1391442253223235587, 'max_id_str': '1391442253223235587', 'next_results': '?max_id=1391373537076731908&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391442253223235587&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2000
+done inserting
+{'completed_in': 0.115, 'max_id': 1391373537076731908, 'max_id_str': '1391373537076731908', 'next_results': '?max_id=1391253773469716487&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391373537076731908&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2100
+done inserting
+{'completed_in': 0.112, 'max_id': 1391253773469716487, 'max_id_str': '1391253773469716487', 'next_results': '?max_id=1391166778399772671&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391253773469716487&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2200
+done inserting
+{'completed_in': 0.119, 'max_id': 1391166778399772671, 'max_id_str': '1391166778399772671', 'next_results': '?max_id=1391115104226267136&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391166778399772671&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2300
+done inserting
+{'completed_in': 0.152, 'max_id': 1391115104226267136, 'max_id_str': '1391115104226267136', 'next_results': '?max_id=1391076455765839873&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391115104226267136&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2400
+done inserting
+{'completed_in': 0.127, 'max_id': 1391076455765839873, 'max_id_str': '1391076455765839873', 'next_results': '?max_id=1391044176050114568&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391076455765839873&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2500
+done inserting
+{'completed_in': 0.14, 'max_id': 1391044176050114568, 'max_id_str': '1391044176050114568', 'next_results': '?max_id=1391005013007388671&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391044176050114568&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2600
+done inserting
+{'completed_in': 0.12, 'max_id': 1391005013007388671, 'max_id_str': '1391005013007388671', 'next_results': '?max_id=1390946110886191105&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391005013007388671&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2700
+done inserting
+{'completed_in': 0.141, 'max_id': 1390946110886191105, 'max_id_str': '1390946110886191105', 'next_results': '?max_id=1390849913349672962&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390946110886191105&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2800
+done inserting
+{'completed_in': 0.156, 'max_id': 1390849913349672962, 'max_id_str': '1390849913349672962', 'next_results': '?max_id=1390797933084168192&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390849913349672962&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2900
+done inserting
+{'completed_in': 0.128, 'max_id': 1390797933084168192, 'max_id_str': '1390797933084168192', 'next_results': '?max_id=1390760724146925569&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390797933084168192&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3000
+done inserting
+{'completed_in': 0.153, 'max_id': 1390760724146925569, 'max_id_str': '1390760724146925569', 'next_results': '?max_id=1390728256693936132&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390760724146925569&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3100
+done inserting
+{'completed_in': 0.138, 'max_id': 1390728256693936132, 'max_id_str': '1390728256693936132', 'next_results': '?max_id=1390700478363750402&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390728256693936132&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3200
+done inserting
+{'completed_in': 0.157, 'max_id': 1390700478363750402, 'max_id_str': '1390700478363750402', 'next_results': '?max_id=1390678202100690950&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390700478363750402&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3300
+done inserting
+{'completed_in': 0.142, 'max_id': 1390678202100690950, 'max_id_str': '1390678202100690950', 'next_results': '?max_id=1390645089832165376&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390678202100690950&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3400
+done inserting
+{'completed_in': 0.148, 'max_id': 1390645089832165376, 'max_id_str': '1390645089832165376', 'next_results': '?max_id=1390618549098532867&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390645089832165376&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3500
+done inserting
+{'completed_in': 0.175, 'max_id': 1390618549098532867, 'max_id_str': '1390618549098532867', 'next_results': '?max_id=1390559522779930624&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390618549098532867&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3600
+done inserting
+{'completed_in': 0.147, 'max_id': 1390559522779930624, 'max_id_str': '1390559522779930624', 'next_results': '?max_id=1390493494515429375&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390559522779930624&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3700
+done inserting
+{'completed_in': 0.137, 'max_id': 1390493494515429375, 'max_id_str': '1390493494515429375', 'next_results': '?max_id=1390437096494673921&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390493494515429375&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3800
+done inserting
+{'completed_in': 0.168, 'max_id': 1390437096494673921, 'max_id_str': '1390437096494673921', 'next_results': '?max_id=1390399829994577928&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390437096494673921&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3900
+done inserting
+{'completed_in': 0.151, 'max_id': 1390399829994577928, 'max_id_str': '1390399829994577928', 'next_results': '?max_id=1390374110908272639&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390399829994577928&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4000
+done inserting
+{'completed_in': 0.158, 'max_id': 1390374110908272639, 'max_id_str': '1390374110908272639', 'next_results': '?max_id=1390335688550268928&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390374110908272639&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4100
+done inserting
+{'completed_in': 0.43, 'max_id': 1390335688550268928, 'max_id_str': '1390335688550268928', 'next_results': '?max_id=1390311980930568198&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390335688550268928&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4200
+done inserting
+{'completed_in': 0.17, 'max_id': 1390311980930568198, 'max_id_str': '1390311980930568198', 'next_results': '?max_id=1390284982338433024&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390311980930568198&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4300
+done inserting
+{'completed_in': 0.141, 'max_id': 1390284982338433024, 'max_id_str': '1390284982338433024', 'next_results': '?max_id=1390258725726851075&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390284982338433024&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4400
+done inserting
+{'completed_in': 0.134, 'max_id': 1390258725726851075, 'max_id_str': '1390258725726851075', 'next_results': '?max_id=1390219800727674881&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390258725726851075&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4500
+done inserting
+{'completed_in': 0.306, 'max_id': 1390219800727674881, 'max_id_str': '1390219800727674881', 'next_results': '?max_id=1390182468301606917&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390219800727674881&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4600
+done inserting
+{'completed_in': 0.136, 'max_id': 1390182468301606917, 'max_id_str': '1390182468301606917', 'next_results': '?max_id=1390143205295931399&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390182468301606917&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4700
+done inserting
+{'completed_in': 0.148, 'max_id': 1390143205295931399, 'max_id_str': '1390143205295931399', 'next_results': '?max_id=1390104827674304513&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390143205295931399&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4800
+done inserting
+{'completed_in': 0.127, 'max_id': 1390104827674304513, 'max_id_str': '1390104827674304513', 'next_results': '?max_id=1390065674656133123&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390104827674304513&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4900
+done inserting
+{'completed_in': 0.13, 'max_id': 1390065674656133123, 'max_id_str': '1390065674656133123', 'next_results': '?max_id=1390043073506332671&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390065674656133123&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5000
+done inserting
+{'completed_in': 0.141, 'max_id': 1390043073506332671, 'max_id_str': '1390043073506332671', 'next_results': '?max_id=1390020040976633855&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390043073506332671&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5100
+done inserting
+{'completed_in': 0.168, 'max_id': 1390020040976633855, 'max_id_str': '1390020040976633855', 'next_results': '?max_id=1389995192212656127&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390020040976633855&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5200
+done inserting
+{'completed_in': 0.133, 'max_id': 1389995192212656127, 'max_id_str': '1389995192212656127', 'next_results': '?max_id=1389972263877890051&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389995192212656127&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5300
+done inserting
+{'completed_in': 0.136, 'max_id': 1389972263877890051, 'max_id_str': '1389972263877890051', 'next_results': '?max_id=1389951899361812481&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389972263877890051&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5400
+done inserting
+{'completed_in': 0.129, 'max_id': 1389951899361812481, 'max_id_str': '1389951899361812481', 'next_results': '?max_id=1389925536852480001&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389951899361812481&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5500
+done inserting
+{'completed_in': 0.145, 'max_id': 1389925536852480001, 'max_id_str': '1389925536852480001', 'next_results': '?max_id=1389879161121083392&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389925536852480001&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5600
+done inserting
+{'completed_in': 0.124, 'max_id': 1389879161121083392, 'max_id_str': '1389879161121083392', 'next_results': '?max_id=1389815646725283840&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389879161121083392&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5700
+done inserting
+{'completed_in': 0.12, 'max_id': 1389815646725283840, 'max_id_str': '1389815646725283840', 'next_results': '?max_id=1389760370525495297&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389815646725283840&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5800
+done inserting
+{'completed_in': 0.104, 'max_id': 1389760370525495297, 'max_id_str': '1389760370525495297', 'next_results': '?max_id=1389720595370229761&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389760370525495297&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5900
+done inserting
+{'completed_in': 0.106, 'max_id': 1389720595370229761, 'max_id_str': '1389720595370229761', 'next_results': '?max_id=1389694704044883973&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389720595370229761&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6000
+done inserting
+{'completed_in': 0.102, 'max_id': 1389694704044883973, 'max_id_str': '1389694704044883973', 'next_results': '?max_id=1389669784518897675&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389694704044883973&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6100
+done inserting
+{'completed_in': 0.114, 'max_id': 1389669784518897675, 'max_id_str': '1389669784518897675', 'next_results': '?max_id=1389644157849935871&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389669784518897675&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6200
+done inserting
+{'completed_in': 0.105, 'max_id': 1389644157849935871, 'max_id_str': '1389644157849935871', 'next_results': '?max_id=1389620213608587271&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389644157849935871&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6300
+done inserting
+{'completed_in': 0.112, 'max_id': 1389620213608587271, 'max_id_str': '1389620213608587271', 'next_results': '?max_id=1389590372741963779&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389620213608587271&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6400
+done inserting
+{'completed_in': 0.104, 'max_id': 1389590372741963779, 'max_id_str': '1389590372741963779', 'next_results': '?max_id=1389563165365653503&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389590372741963779&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6500
+done inserting
+{'completed_in': 0.11, 'max_id': 1389563165365653503, 'max_id_str': '1389563165365653503', 'next_results': '?max_id=1389517206971617284&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389563165365653503&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6600
+done inserting
+{'completed_in': 0.091, 'max_id': 1389517206971617284, 'max_id_str': '1389517206971617284', 'next_results': '?max_id=1389483428609888259&q=%23Pfizer%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389517206971617284&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6700
+done inserting
+{'completed_in': 0.014, 'max_id': 1389483428609888259, 'max_id_str': '1389483428609888259', 'query': '%23Pfizer+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389483428609888259&q=%23Pfizer%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6800
+list index out of range
+{'completed_in': 0.094, 'max_id': 1392310665927299074, 'max_id_str': '1392310665927299074', 'next_results': '?max_id=1391207787057885184&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23ModernaVaccine+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392310665927299074&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+done inserting
+{'completed_in': 0.114, 'max_id': 1391207787057885184, 'max_id_str': '1391207787057885184', 'next_results': '?max_id=1390395884312186883&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23ModernaVaccine+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391207787057885184&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+100
+done inserting
+{'completed_in': 0.123, 'max_id': 1390395884312186883, 'max_id_str': '1390395884312186883', 'next_results': '?max_id=1389691249913962500&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23ModernaVaccine+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390395884312186883&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+200
+done inserting
+{'completed_in': 0.08, 'max_id': 1389691249913962500, 'max_id_str': '1389691249913962500', 'next_results': '?max_id=1389490777768660995&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23ModernaVaccine+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389691249913962500&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+300
+done inserting
+{'completed_in': 0.008, 'max_id': 1389490777768660995, 'max_id_str': '1389490777768660995', 'query': '%23ModernaVaccine+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389490777768660995&q=%23ModernaVaccine%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}        
+400
+list index out of range
+{'completed_in': 0.125, 'max_id': 1392313920736546817, 'max_id_str': '1392313920736546817', 'next_results': '?max_id=1392222989920489473&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392313920736546817&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+done inserting
+{'completed_in': 0.117, 'max_id': 1392222989920489473, 'max_id_str': '1392222989920489473', 'next_results': '?max_id=1392149725735006208&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392222989920489473&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+100
+done inserting
+{'completed_in': 0.105, 'max_id': 1392149725735006208, 'max_id_str': '1392149725735006208', 'next_results': '?max_id=1392004422662717439&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392149725735006208&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+200
+done inserting
+{'completed_in': 0.12, 'max_id': 1392004422662717439, 'max_id_str': '1392004422662717439', 'next_results': '?max_id=1391863375961989133&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392004422662717439&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+300
+done inserting
+{'completed_in': 0.145, 'max_id': 1391863375961989133, 'max_id_str': '1391863375961989133', 'next_results': '?max_id=1391791218288381954&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391863375961989133&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+400
+done inserting
+{'completed_in': 0.118, 'max_id': 1391791218288381954, 'max_id_str': '1391791218288381954', 'next_results': '?max_id=1391701355476226049&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391791218288381954&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+500
+done inserting
+{'completed_in': 0.108, 'max_id': 1391701355476226049, 'max_id_str': '1391701355476226049', 'next_results': '?max_id=1391490022310821895&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391701355476226049&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+600
+done inserting
+{'completed_in': 0.109, 'max_id': 1391490022310821895, 'max_id_str': '1391490022310821895', 'next_results': '?max_id=1391319842498564095&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391490022310821895&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+700
+done inserting
+{'completed_in': 0.109, 'max_id': 1391319842498564095, 'max_id_str': '1391319842498564095', 'next_results': '?max_id=1391160456488833030&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391319842498564095&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+800
+done inserting
+{'completed_in': 0.132, 'max_id': 1391160456488833030, 'max_id_str': '1391160456488833030', 'next_results': '?max_id=1391087020647215103&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391160456488833030&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+900
+done inserting
+{'completed_in': 0.138, 'max_id': 1391087020647215103, 'max_id_str': '1391087020647215103', 'next_results': '?max_id=1391024095492456447&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391087020647215103&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1000
+done inserting
+{'completed_in': 0.117, 'max_id': 1391024095492456447, 'max_id_str': '1391024095492456447', 'next_results': '?max_id=1390871965385232383&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391024095492456447&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1100
+done inserting
+{'completed_in': 0.115, 'max_id': 1390871965385232383, 'max_id_str': '1390871965385232383', 'next_results': '?max_id=1390778479529152512&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390871965385232383&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1200
+done inserting
+{'completed_in': 0.113, 'max_id': 1390778479529152512, 'max_id_str': '1390778479529152512', 'next_results': '?max_id=1390705508663889919&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390778479529152512&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1300
+done inserting
+{'completed_in': 0.106, 'max_id': 1390705508663889919, 'max_id_str': '1390705508663889919', 'next_results': '?max_id=1390658597734998016&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390705508663889919&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1400
+done inserting
+{'completed_in': 0.118, 'max_id': 1390658597734998016, 'max_id_str': '1390658597734998016', 'next_results': '?max_id=1390540536155623423&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390658597734998016&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1500
+done inserting
+{'completed_in': 0.107, 'max_id': 1390540536155623423, 'max_id_str': '1390540536155623423', 'next_results': '?max_id=1390448992249597953&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390540536155623423&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1600
+done inserting
+{'completed_in': 0.108, 'max_id': 1390448992249597953, 'max_id_str': '1390448992249597953', 'next_results': '?max_id=1390392847594147841&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390448992249597953&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1700
+done inserting
+{'completed_in': 0.103, 'max_id': 1390392847594147841, 'max_id_str': '1390392847594147841', 'next_results': '?max_id=1390355200762855424&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390392847594147841&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1800
+done inserting
+{'completed_in': 0.123, 'max_id': 1390355200762855424, 'max_id_str': '1390355200762855424', 'next_results': '?max_id=1390321028962848768&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390355200762855424&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1900
+done inserting
+{'completed_in': 0.107, 'max_id': 1390321028962848768, 'max_id_str': '1390321028962848768', 'next_results': '?max_id=1390284321731272706&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390321028962848768&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2000
+done inserting
+{'completed_in': 0.101, 'max_id': 1390284321731272706, 'max_id_str': '1390284321731272706', 'next_results': '?max_id=1390204312727560192&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390284321731272706&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2100
+done inserting
+{'completed_in': 0.131, 'max_id': 1390204312727560192, 'max_id_str': '1390204312727560192', 'next_results': '?max_id=1390102791188742145&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390204312727560192&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2200
+done inserting
+{'completed_in': 0.153, 'max_id': 1390102791188742145, 'max_id_str': '1390102791188742145', 'next_results': '?max_id=1390051177782419456&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390102791188742145&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2300
+done inserting
+{'completed_in': 0.108, 'max_id': 1390051177782419456, 'max_id_str': '1390051177782419456', 'next_results': '?max_id=1389986786798092289&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390051177782419456&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2400
+done inserting
+{'completed_in': 0.107, 'max_id': 1389986786798092289, 'max_id_str': '1389986786798092289', 'next_results': '?max_id=1389932378416689153&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389986786798092289&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2500
+done inserting
+{'completed_in': 0.093, 'max_id': 1389932378416689153, 'max_id_str': '1389932378416689153', 'next_results': '?max_id=1389760215604776967&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389932378416689153&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2600
+done inserting
+{'completed_in': 0.104, 'max_id': 1389760215604776967, 'max_id_str': '1389760215604776967', 'next_results': '?max_id=1389698143521017856&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389760215604776967&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2700
+done inserting
+{'completed_in': 0.102, 'max_id': 1389698143521017856, 'max_id_str': '1389698143521017856', 'next_results': '?max_id=1389639911263899655&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389698143521017856&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2800
+done inserting
+{'completed_in': 0.101, 'max_id': 1389639911263899655, 'max_id_str': '1389639911263899655', 'next_results': '?max_id=1389589418021851138&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389639911263899655&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2900
+done inserting
+{'completed_in': 0.095, 'max_id': 1389589418021851138, 'max_id_str': '1389589418021851138', 'next_results': '?max_id=1389490194559250432&q=%23Moderna%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389589418021851138&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3000
+done inserting
+{'completed_in': 0.021, 'max_id': 1389490194559250432, 'max_id_str': '1389490194559250432', 'query': '%23Moderna+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1389490194559250432&q=%23Moderna%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3100
+list index out of range
+{'completed_in': 0.138, 'max_id': 1392313927162269699, 'max_id_str': '1392313927162269699', 'next_results': '?max_id=1392271959132557318&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392313927162269699&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+done inserting
+{'completed_in': 0.111, 'max_id': 1392271959132557318, 'max_id_str': '1392271959132557318', 'next_results': '?max_id=1392247024066629635&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392271959132557318&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+100
+done inserting
+{'completed_in': 0.111, 'max_id': 1392247024066629635, 'max_id_str': '1392247024066629635', 'next_results': '?max_id=1392224779361558530&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392247024066629635&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+200
+done inserting
+{'completed_in': 0.108, 'max_id': 1392224779361558530, 'max_id_str': '1392224779361558530', 'next_results': '?max_id=1392196297168359423&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392224779361558530&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+300
+done inserting
+{'completed_in': 0.114, 'max_id': 1392196297168359423, 'max_id_str': '1392196297168359423', 'next_results': '?max_id=1392175931830128649&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392196297168359423&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+400
+done inserting
+{'completed_in': 0.12, 'max_id': 1392175931830128649, 'max_id_str': '1392175931830128649', 'next_results': '?max_id=1392157323808808959&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392175931830128649&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+500
+done inserting
+{'completed_in': 0.117, 'max_id': 1392157323808808959, 'max_id_str': '1392157323808808959', 'next_results': '?max_id=1392141404827054079&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392157323808808959&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+600
+done inserting
+{'completed_in': 0.104, 'max_id': 1392141404827054079, 'max_id_str': '1392141404827054079', 'next_results': '?max_id=1392125263249645573&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392141404827054079&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+700
+done inserting
+{'completed_in': 0.109, 'max_id': 1392125263249645573, 'max_id_str': '1392125263249645573', 'next_results': '?max_id=1392108466018344960&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392125263249645573&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+800
+done inserting
+{'completed_in': 0.105, 'max_id': 1392108466018344960, 'max_id_str': '1392108466018344960', 'next_results': '?max_id=1392091628706349059&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392108466018344960&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+900
+done inserting
+{'completed_in': 0.122, 'max_id': 1392091628706349059, 'max_id_str': '1392091628706349059', 'next_results': '?max_id=1392072097531187200&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392091628706349059&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1000
+done inserting
+{'completed_in': 0.116, 'max_id': 1392072097531187200, 'max_id_str': '1392072097531187200', 'next_results': '?max_id=1392046678883065855&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392072097531187200&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1100
+done inserting
+{'completed_in': 0.132, 'max_id': 1392046678883065855, 'max_id_str': '1392046678883065855', 'next_results': '?max_id=1392021528816939010&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392046678883065855&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1200
+done inserting
+{'completed_in': 0.114, 'max_id': 1392021528816939010, 'max_id_str': '1392021528816939010', 'next_results': '?max_id=1391989714169655299&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1392021528816939010&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1300
+done inserting
+{'completed_in': 0.105, 'max_id': 1391989714169655299, 'max_id_str': '1391989714169655299', 'next_results': '?max_id=1391946448845950976&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391989714169655299&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1400
+done inserting
+{'completed_in': 0.119, 'max_id': 1391946448845950976, 'max_id_str': '1391946448845950976', 'next_results': '?max_id=1391900220317913089&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391946448845950976&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1500
+done inserting
+{'completed_in': 0.114, 'max_id': 1391900220317913089, 'max_id_str': '1391900220317913089', 'next_results': '?max_id=1391869899140702209&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391900220317913089&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1600
+done inserting
+{'completed_in': 0.114, 'max_id': 1391869899140702209, 'max_id_str': '1391869899140702209', 'next_results': '?max_id=1391847258908504070&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391869899140702209&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1700
+done inserting
+{'completed_in': 0.123, 'max_id': 1391847258908504070, 'max_id_str': '1391847258908504070', 'next_results': '?max_id=1391820300015177729&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391847258908504070&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1800
+done inserting
+{'completed_in': 0.162, 'max_id': 1391820300015177729, 'max_id_str': '1391820300015177729', 'next_results': '?max_id=1391802886301143043&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391820300015177729&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+1900
+done inserting
+{'completed_in': 0.112, 'max_id': 1391802886301143043, 'max_id_str': '1391802886301143043', 'next_results': '?max_id=1391791499390631937&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391802886301143043&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2000
+done inserting
+{'completed_in': 0.096, 'max_id': 1391791499390631937, 'max_id_str': '1391791499390631937', 'next_results': '?max_id=1391783173294632959&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391791499390631937&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2100
+done inserting
+{'completed_in': 0.112, 'max_id': 1391783173294632959, 'max_id_str': '1391783173294632959', 'next_results': '?max_id=1391767356687388672&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391783173294632959&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2200
+done inserting
+{'completed_in': 0.105, 'max_id': 1391767356687388672, 'max_id_str': '1391767356687388672', 'next_results': '?max_id=1391751018308898815&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391767356687388672&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2300
+done inserting
+{'completed_in': 0.105, 'max_id': 1391751018308898815, 'max_id_str': '1391751018308898815', 'next_results': '?max_id=1391733132844437505&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391751018308898815&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2400
+done inserting
+{'completed_in': 0.115, 'max_id': 1391733132844437505, 'max_id_str': '1391733132844437505', 'next_results': '?max_id=1391715305202733060&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391733132844437505&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2500
+done inserting
+{'completed_in': 0.107, 'max_id': 1391715305202733060, 'max_id_str': '1391715305202733060', 'next_results': '?max_id=1391685766351233028&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391715305202733060&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2600
+done inserting
+{'completed_in': 0.107, 'max_id': 1391685766351233028, 'max_id_str': '1391685766351233028', 'next_results': '?max_id=1391664591814410245&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391685766351233028&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2700
+done inserting
+{'completed_in': 0.125, 'max_id': 1391664591814410245, 'max_id_str': '1391664591814410245', 'next_results': '?max_id=1391637071253676032&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391664591814410245&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2800
+done inserting
+{'completed_in': 0.127, 'max_id': 1391637071253676032, 'max_id_str': '1391637071253676032', 'next_results': '?max_id=1391606809316630528&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391637071253676032&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+2900
+done inserting
+{'completed_in': 0.109, 'max_id': 1391606809316630528, 'max_id_str': '1391606809316630528', 'next_results': '?max_id=1391568990758080512&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391606809316630528&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3000
+done inserting
+{'completed_in': 0.115, 'max_id': 1391568990758080512, 'max_id_str': '1391568990758080512', 'next_results': '?max_id=1391521392370216960&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391568990758080512&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3100
+done inserting
+{'completed_in': 0.112, 'max_id': 1391521392370216960, 'max_id_str': '1391521392370216960', 'next_results': '?max_id=1391497582363414527&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391521392370216960&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3200
+done inserting
+{'completed_in': 0.119, 'max_id': 1391497582363414527, 'max_id_str': '1391497582363414527', 'next_results': '?max_id=1391469685322010625&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391497582363414527&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3300
+done inserting
+{'completed_in': 0.112, 'max_id': 1391469685322010625, 'max_id_str': '1391469685322010625', 'next_results': '?max_id=1391445601905041408&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391469685322010625&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3400
+done inserting
+{'completed_in': 0.128, 'max_id': 1391445601905041408, 'max_id_str': '1391445601905041408', 'next_results': '?max_id=1391424546650140674&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391445601905041408&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3500
+done inserting
+{'completed_in': 0.164, 'max_id': 1391424546650140674, 'max_id_str': '1391424546650140674', 'next_results': '?max_id=1391405852251336708&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391424546650140674&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3600
+done inserting
+{'completed_in': 0.113, 'max_id': 1391405852251336708, 'max_id_str': '1391405852251336708', 'next_results': '?max_id=1391384896078290944&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391405852251336708&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3700
+done inserting
+{'completed_in': 0.115, 'max_id': 1391384896078290944, 'max_id_str': '1391384896078290944', 'next_results': '?max_id=1391355324418859014&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391384896078290944&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3800
+done inserting
+{'completed_in': 0.138, 'max_id': 1391355324418859014, 'max_id_str': '1391355324418859014', 'next_results': '?max_id=1391320158426128386&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391355324418859014&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+3900
+done inserting
+{'completed_in': 0.112, 'max_id': 1391320158426128386, 'max_id_str': '1391320158426128386', 'next_results': '?max_id=1391290798189121538&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391320158426128386&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4000
+done inserting
+{'completed_in': 0.11, 'max_id': 1391290798189121538, 'max_id_str': '1391290798189121538', 'next_results': '?max_id=1391258976919199747&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391290798189121538&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4100
+done inserting
+{'completed_in': 0.112, 'max_id': 1391258976919199747, 'max_id_str': '1391258976919199747', 'next_results': '?max_id=1391225020664500234&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391258976919199747&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4200
+done inserting
+{'completed_in': 0.118, 'max_id': 1391225020664500234, 'max_id_str': '1391225020664500234', 'next_results': '?max_id=1391194261257863170&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391225020664500234&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4300
+done inserting
+{'completed_in': 0.114, 'max_id': 1391194261257863170, 'max_id_str': '1391194261257863170', 'next_results': '?max_id=1391169521248002052&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391194261257863170&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4400
+done inserting
+{'completed_in': 0.108, 'max_id': 1391169521248002052, 'max_id_str': '1391169521248002052', 'next_results': '?max_id=1391146597946470402&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391169521248002052&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4500
+done inserting
+{'completed_in': 0.104, 'max_id': 1391146597946470402, 'max_id_str': '1391146597946470402', 'next_results': '?max_id=1391123639437643776&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391146597946470402&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4600
+done inserting
+{'completed_in': 0.104, 'max_id': 1391123639437643776, 'max_id_str': '1391123639437643776', 'next_results': '?max_id=1391108884643815429&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391123639437643776&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4700
+done inserting
+{'completed_in': 0.1, 'max_id': 1391108884643815429, 'max_id_str': '1391108884643815429', 'next_results': '?max_id=1391094234988482560&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391108884643815429&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4800
+done inserting
+{'completed_in': 0.108, 'max_id': 1391094234988482560, 'max_id_str': '1391094234988482560', 'next_results': '?max_id=1391079903915806730&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391094234988482560&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+4900
+done inserting
+{'completed_in': 0.165, 'max_id': 1391079903915806730, 'max_id_str': '1391079903915806730', 'next_results': '?max_id=1391065162640146433&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391079903915806730&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5000
+done inserting
+{'completed_in': 0.111, 'max_id': 1391065162640146433, 'max_id_str': '1391065162640146433', 'next_results': '?max_id=1391051030134132735&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391065162640146433&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5100
+done inserting
+{'completed_in': 0.126, 'max_id': 1391051030134132735, 'max_id_str': '1391051030134132735', 'next_results': '?max_id=1391036698897928191&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391051030134132735&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5200
+done inserting
+{'completed_in': 0.113, 'max_id': 1391036698897928191, 'max_id_str': '1391036698897928191', 'next_results': '?max_id=1391021999741300747&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391036698897928191&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5300
+done inserting
+{'completed_in': 0.163, 'max_id': 1391021999741300747, 'max_id_str': '1391021999741300747', 'next_results': '?max_id=1391006808937058310&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391021999741300747&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5400
+done inserting
+{'completed_in': 0.114, 'max_id': 1391006808937058310, 'max_id_str': '1391006808937058310', 'next_results': '?max_id=1390986074718081029&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1391006808937058310&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5500
+done inserting
+{'completed_in': 0.115, 'max_id': 1390986074718081029, 'max_id_str': '1390986074718081029', 'next_results': '?max_id=1390963797435719682&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390986074718081029&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5600
+done inserting
+{'completed_in': 0.109, 'max_id': 1390963797435719682, 'max_id_str': '1390963797435719682', 'next_results': '?max_id=1390942761113722879&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390963797435719682&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5700
+done inserting
+{'completed_in': 0.102, 'max_id': 1390942761113722879, 'max_id_str': '1390942761113722879', 'next_results': '?max_id=1390921933500260352&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390942761113722879&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5800
+done inserting
+{'completed_in': 0.108, 'max_id': 1390921933500260352, 'max_id_str': '1390921933500260352', 'next_results': '?max_id=1390901824337502207&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390921933500260352&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+5900
+done inserting
+{'completed_in': 0.12, 'max_id': 1390901824337502207, 'max_id_str': '1390901824337502207', 'next_results': '?max_id=1390875258056491011&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390901824337502207&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6000
+done inserting
+{'completed_in': 0.11, 'max_id': 1390875258056491011, 'max_id_str': '1390875258056491011', 'next_results': '?max_id=1390838923987984383&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390875258056491011&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6100
+done inserting
+{'completed_in': 0.107, 'max_id': 1390838923987984383, 'max_id_str': '1390838923987984383', 'next_results': '?max_id=1390814547435479039&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390838923987984383&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6200
+done inserting
+{'completed_in': 0.104, 'max_id': 1390814547435479039, 'max_id_str': '1390814547435479039', 'next_results': '?max_id=1390793455450959875&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390814547435479039&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6300
+done inserting
+{'completed_in': 0.105, 'max_id': 1390793455450959875, 'max_id_str': '1390793455450959875', 'next_results': '?max_id=1390783721649889284&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390793455450959875&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6400
+done inserting
+{'completed_in': 0.122, 'max_id': 1390783721649889284, 'max_id_str': '1390783721649889284', 'next_results': '?max_id=1390763511073185794&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390783721649889284&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6500
+done inserting
+{'completed_in': 0.151, 'max_id': 1390763511073185794, 'max_id_str': '1390763511073185794', 'next_results': '?max_id=1390747054817882111&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390763511073185794&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6600
+done inserting
+{'completed_in': 0.114, 'max_id': 1390747054817882111, 'max_id_str': '1390747054817882111', 'next_results': '?max_id=1390735069447340032&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390747054817882111&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6700
+done inserting
+{'completed_in': 0.102, 'max_id': 1390735069447340032, 'max_id_str': '1390735069447340032', 'next_results': '?max_id=1390725664156921855&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390735069447340032&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6800
+done inserting
+{'completed_in': 0.132, 'max_id': 1390725664156921855, 'max_id_str': '1390725664156921855', 'next_results': '?max_id=1390716813428789252&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390725664156921855&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+6900
+done inserting
+{'completed_in': 0.146, 'max_id': 1390716813428789252, 'max_id_str': '1390716813428789252', 'next_results': '?max_id=1390705088709148675&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390716813428789252&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7000
+done inserting
+{'completed_in': 0.103, 'max_id': 1390705088709148675, 'max_id_str': '1390705088709148675', 'next_results': '?max_id=1390693335359229957&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390705088709148675&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7100
+done inserting
+{'completed_in': 0.109, 'max_id': 1390693335359229957, 'max_id_str': '1390693335359229957', 'next_results': '?max_id=1390684936554827777&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390693335359229957&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7200
+done inserting
+{'completed_in': 0.11, 'max_id': 1390684936554827777, 'max_id_str': '1390684936554827777', 'next_results': '?max_id=1390675685375717376&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390684936554827777&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7300
+done inserting
+{'completed_in': 0.117, 'max_id': 1390675685375717376, 'max_id_str': '1390675685375717376', 'next_results': '?max_id=1390663720402145282&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390675685375717376&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7400
+done inserting
+{'completed_in': 0.115, 'max_id': 1390663720402145282, 'max_id_str': '1390663720402145282', 'next_results': '?max_id=1390649417649164289&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390663720402145282&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7500
+done inserting
+{'completed_in': 0.111, 'max_id': 1390649417649164289, 'max_id_str': '1390649417649164289', 'next_results': '?max_id=1390634451101786112&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390649417649164289&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7600
+done inserting
+{'completed_in': 0.113, 'max_id': 1390634451101786112, 'max_id_str': '1390634451101786112', 'next_results': '?max_id=1390617404254851077&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390634451101786112&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7700
+done inserting
+{'completed_in': 0.096, 'max_id': 1390617404254851077, 'max_id_str': '1390617404254851077', 'next_results': '?max_id=1390600836674379780&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390617404254851077&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7800
+done inserting
+{'completed_in': 0.114, 'max_id': 1390600836674379780, 'max_id_str': '1390600836674379780', 'next_results': '?max_id=1390580275470503936&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390600836674379780&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+7900
+done inserting
+{'completed_in': 0.108, 'max_id': 1390580275470503936, 'max_id_str': '1390580275470503936', 'next_results': '?max_id=1390559116788060159&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390580275470503936&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8000
+done inserting
+{'completed_in': 0.106, 'max_id': 1390559116788060159, 'max_id_str': '1390559116788060159', 'next_results': '?max_id=1390527034825138175&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390559116788060159&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8100
+done inserting
+{'completed_in': 0.108, 'max_id': 1390527034825138175, 'max_id_str': '1390527034825138175', 'next_results': '?max_id=1390496970146467841&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390527034825138175&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8200
+done inserting
+{'completed_in': 0.109, 'max_id': 1390496970146467841, 'max_id_str': '1390496970146467841', 'next_results': '?max_id=1390473959217405951&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390496970146467841&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8300
+done inserting
+{'completed_in': 0.105, 'max_id': 1390473959217405951, 'max_id_str': '1390473959217405951', 'next_results': '?max_id=1390449266230022143&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390473959217405951&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8400
+done inserting
+{'completed_in': 0.136, 'max_id': 1390449266230022143, 'max_id_str': '1390449266230022143', 'next_results': '?max_id=1390428638030540803&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390449266230022143&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8500
+done inserting
+{'completed_in': 0.114, 'max_id': 1390428638030540803, 'max_id_str': '1390428638030540803', 'next_results': '?max_id=1390412771599298570&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390428638030540803&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8600
+done inserting
+{'completed_in': 0.108, 'max_id': 1390412771599298570, 'max_id_str': '1390412771599298570', 'next_results': '?max_id=1390391852185051135&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390412771599298570&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8700
+done inserting
+{'completed_in': 0.155, 'max_id': 1390391852185051135, 'max_id_str': '1390391852185051135', 'next_results': '?max_id=1390376504484196352&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390391852185051135&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8800
+done inserting
+{'completed_in': 0.121, 'max_id': 1390376504484196352, 'max_id_str': '1390376504484196352', 'next_results': '?max_id=1390364897188335618&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390376504484196352&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+8900
+done inserting
+{'completed_in': 0.094, 'max_id': 1390364897188335618, 'max_id_str': '1390364897188335618', 'next_results': '?max_id=1390358406926569481&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390364897188335618&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9000
+done inserting
+{'completed_in': 0.095, 'max_id': 1390358406926569481, 'max_id_str': '1390358406926569481', 'next_results': '?max_id=1390351525902315521&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390358406926569481&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9100
+done inserting
+{'completed_in': 0.102, 'max_id': 1390351525902315521, 'max_id_str': '1390351525902315521', 'next_results': '?max_id=1390343324444336134&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390351525902315521&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9200
+done inserting
+{'completed_in': 0.098, 'max_id': 1390343324444336134, 'max_id_str': '1390343324444336134', 'next_results': '?max_id=1390334502619074565&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390343324444336134&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9300
+done inserting
+{'completed_in': 0.105, 'max_id': 1390334502619074565, 'max_id_str': '1390334502619074565', 'next_results': '?max_id=1390326585564176384&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390334502619074565&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9400
+done inserting
+{'completed_in': 0.128, 'max_id': 1390326585564176384, 'max_id_str': '1390326585564176384', 'next_results': '?max_id=1390317641005355007&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390326585564176384&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9500
+done inserting
+{'completed_in': 0.1, 'max_id': 1390317641005355007, 'max_id_str': '1390317641005355007', 'next_results': '?max_id=1390308773802168321&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390317641005355007&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9600
+done inserting
+{'completed_in': 0.107, 'max_id': 1390308773802168321, 'max_id_str': '1390308773802168321', 'next_results': '?max_id=1390295842574278658&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390308773802168321&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9700
+done inserting
+{'completed_in': 0.118, 'max_id': 1390295842574278658, 'max_id_str': '1390295842574278658', 'next_results': '?max_id=1390280737941643265&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390295842574278658&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9800
+done inserting
+{'completed_in': 0.129, 'max_id': 1390280737941643265, 'max_id_str': '1390280737941643265', 'next_results': '?max_id=1390263039375589377&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&count=100&include_entities=1', 'query': '%23Vaccinated+-RT+AND+lang%3Aen', 'refresh_url': '?since_id=1390280737941643265&q=%23Vaccinated%20-RT%20AND%20lang%3Aen&include_entities=1', 'count': 100, 'since_id': 0, 'since_id_str': '0'}
+9900
+done inserting
+Done fetching tweets
