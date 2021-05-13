@@ -11,6 +11,7 @@ from textblob import TextBlob
 import seaborn as sns
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
+import plotly.express as px
 
 load_dotenv()                  
 
@@ -262,8 +263,6 @@ def plot_map(result_copy):
         "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", "Tennessee": "TN", 
         "Texas": "TX", "Utah": "UT", "Vermont": "VT", "Virginia": "VA", "Washington": "WA",  
         "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY" }
-    # print(df_states)
-
 
     for topic in topics:
         for index, row in result_copy[topic].iterrows():
@@ -284,35 +283,42 @@ def plot_map(result_copy):
     result_states = {}
     for topic in topics:
         result_states[topic] = result_copy[topic][result_copy[topic]['us_state_code'].notna()]
-
-
-    topic = 'PfizerVaccine'
+        topic = 'PfizerVaccine'
     print(len(result_states[topic]))
     result_states[topic]['us_state_code'].head(10)
-    df_states_pfizer = result_states[topic].groupby(['us_state_code','textblob_sentiment']).agg(['count'])
-    print(df_states_pfizer.value_counts(['textblob_sentiment']).head(100))
 
-
-    df_states = dict()
-    df_states.setdefault('Positive')
-    # Positive, Negative, Neutral
+    df_states = []
     for i in state_codes:
-        df_states.setdefault(i, 0)
-        df_states.setdefault('Positive', 0)
-        df_states.setdefault('Negative', 0)
-        df_states.setdefault('Neutral', 0)
+        dic = {'State':i, 'Positive':0, 'Negative':0, 'Neutral': 0}
+        df_states.append(dic)
+    # now update
+    for ind,row in result_states[topic].iterrows():
+        curr_state = row['us_state_code']
+        for item in df_states:
+            if item['State'] == curr_state:
+                item[row['textblob_sentiment']] = item[row['textblob_sentiment']] + 1
+                break
 
-    # for index, row in df_states_pfizer.iterrows():
-        
-    for row, index in df_states_pfizer.iterrows():
-        print(row)
+    #positive percentage
+    for row in df_states:
+        curr_total = int(row['Positive']) + int(row['Negative']) + int(row['Neutral'])
+        row.setdefault('Total',curr_total)
+        if curr_total > 0:
+            row.setdefault('PositivePercentage', round(float(row['Positive']/row['Total']*100),2))
+            row.setdefault('NegativePercentage', round(float(row['Negative']/row['Total']*100),2))
+        else:
+            row.setdefault('PositivePercentage',0)
+            row.setdefault('NegativePercentage',0)
+    # print(pandas.DataFrame(df_states))
+    state_df  = pandas.DataFrame(df_states)
 
-
+    fig = px.choropleth(state_df, locations='State', locationmode='USA-states', 
+            scope='usa', color = 'PositivePercentage', hover_name='State', hover_data=['Positive','Negative','Neutral'], range_color= [10,90], color_continuous_scale= 'armyrose', title='Covid-19 Vaccine Sentiment Pfizer' )
+    fig.show()
 
 if __name__ == '__main__':
     # fetch_tweets()
     result_copy = generate_report()
-    # result_copy = location_report(result_copy)
     plot_map(result_copy)
     # print(result_copy['PfizerVaccine'].head(10)
     # get_docs_csv()
