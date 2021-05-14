@@ -218,29 +218,29 @@ def generate_report():
 
         #worldcloud
         # #vaccinated
-        # comment_words = ''
-        # stopwords = set(STOPWORDS)
-        # result_copy['JohnsonAndJohnsonVaccine'].head(10)
-        # for topic in topics:
-        #     for val in result_copy[topic].values:
-        #         row = val[7]
-        #         # print(row)
-        #         tokens = row.split()
-        #         # Converts each token into lowercase
-        #         for i in range(len(tokens)):
-        #             tokens[i] = tokens[i].lower()
+        comment_words = ''
+        stopwords = set(STOPWORDS)
+        result_copy['JohnsonAndJohnsonVaccine'].head(10)
+        for topic in topics:
+            for val in result_copy[topic].values:
+                row = val[7]
+                # print(row)
+                tokens = row.split()
+                # Converts each token into lowercase
+                for i in range(len(tokens)):
+                    tokens[i] = tokens[i].lower()
                 
-        #         comment_words += " ".join(tokens)+" "
-        #     wordcloud = WordCloud(width = 800, height = 800,
-        #                     background_color ='black',
-        #                     stopwords = stopwords,
-        #                     min_font_size = 10).generate(comment_words)
-        #     plt.figure(figsize = (8, 8), facecolor = None)
-        #     plt.imshow(wordcloud)
-        #     plt.axis("off")
-        #     plt.tight_layout(pad = 0)
+                comment_words += " ".join(tokens)+" "
+            wordcloud = WordCloud(width = 800, height = 800,
+                            background_color ='black',
+                            stopwords = stopwords,
+                            min_font_size = 10).generate(comment_words)
+            plt.figure(figsize = (8, 8), facecolor = None)
+            plt.imshow(wordcloud)
+            plt.axis("off")
+            plt.tight_layout(pad = 0)
             
-        #     plt.show()
+            plt.show()
         return result_copy
 
     except Exception as e:
@@ -320,5 +320,3 @@ if __name__ == '__main__':
     # fetch_tweets()
     result_copy = generate_report()
     plot_map(result_copy)
-    # print(result_copy['PfizerVaccine'].head(10)
-    # get_docs_csv()
