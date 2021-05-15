@@ -123,6 +123,9 @@ def get_docs_csv():
             print(e)
 
 def remove_punctuations(text):
+    '''
+    This method is use to clean the tweets
+    '''
     punct =['%','/',':','\\','&amp;','&',';']
     for punctuation in punct:
         text = text.replace(punctuation, '')
@@ -156,6 +159,9 @@ def fetch_tweets():
         print(e)
 
 def generate_report():
+    '''
+    This method is used to generate the report from the csv
+    '''
     try:
         final = []
         for topic in topics:          
@@ -254,5 +260,5 @@ def location_report():
 if __name__ == '__main__':
     # fetch_tweets()
     # generate_report()
-    get_docs_csv()
+    # get_docs_csv()
     

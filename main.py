@@ -1,7 +1,6 @@
 import twitter, datetime
 import json
 import csv
-import pymongo
 from dotenv import load_dotenv 
 import os 
 import pandas
@@ -15,16 +14,12 @@ import plotly.express as px
 
 load_dotenv()                  
 
-mongo = os.environ.get('mongo')
-db = os.environ.get('db')
 topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine"]
 hashtags = {'JohnsonAndJohnsonVaccine': ['JnJVaccine',  'JohnsonAndJohnsonVaccine'],
             'PfizerVaccine': ['PfizerVaccine', 'Pfizer'],
             'ModernaVaccine': ['ModernaVaccine', 'Moderna'],
             'Vaccinated': ['Vaccinated']
         }
-# hashtags = {'ModernaVaccine': ['ModernaVaccine', 'Moderna'],
-#             'Vaccinated': ['Vaccinated'] }
 
 def oauth_login():
     '''
@@ -100,6 +95,9 @@ def query_tweet(query, count, topic):
             break
         
 def get_docs_csv():   
+     '''
+    This method is used to download the csv from mongodb 
+    '''
     client = pymongo.MongoClient(mongo)
     database = client[db]
     for col in topics:
@@ -121,6 +119,9 @@ def get_docs_csv():
             print(e)
 
 def remove_punctuations(text):
+    '''
+    This method is used to clean the tweets
+    '''
     punct =['%','/',':','\\','&amp;','&',';']
     for punctuation in punct:
         text = text.replace(punctuation, '')
@@ -154,9 +155,11 @@ def fetch_tweets():
         print(e)
 
 def generate_report():
+    '''
+    This method is used to generate the report from the csv
+    '''
     try:
         topics = ["ModernaVaccine","JohnsonAndJohnsonVaccine", "PfizerVaccine", "Vaccinated"]
-        # topics = ["Vaccinated"]
         final_bar = []
         result_copy = dict()
         for topic in topics:          
@@ -247,6 +250,9 @@ def generate_report():
         print(e)
 
 def plot_map(result_copy):
+    '''
+    This method is used for plotting the graph
+    '''
     state_codes = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", 
           "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", 
           "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", 
