@@ -1,8 +1,15 @@
-# sentiment-analysis
+# Sentiment-Analysis of Covid-19 Vaccine
 Sentiment Analysis on Covid Vaccine
 
+The code is available at https://github.com/deshaware/sentiment-analysis, 
+You may run the main.ipynb notebook to view the results on github itself without having to download the source code.
 
-How to start contributing? 
+Please note some of the graphs not visible at github because of plotly's version on github, this issue is at github's end.
+
+If you wish to run it on your system, you can follow the instructions below.
+
+###
+How to start contributing or install? 
 
 1. Python -m pip install -r requirements.txt
 2. Create a new file .env 
