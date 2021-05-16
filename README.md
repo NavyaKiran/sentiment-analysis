@@ -23,7 +23,11 @@ How to start contributing?
 
 5. To run with mongodb configuration, Run "python main_with_database.py"
 
-6. To run for without mongodb configuration, Run "python main.py"
+### or
+
+5. To run for without mongodb configuration, Run "python main.py"
+
+6. Run jupyter notebook main.ipynb file for data visualization
 
 ### With CSV
 
