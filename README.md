@@ -21,4 +21,16 @@ How to start contributing?
 
 4. Above values can be found at https://developer.twitter.com/en/portal/dashboard, you may have to apply for developer profile to fetch credentials 
 
-5. Run "python main.py" 
+5. To run with mongodb configuration, Run "python main_with_database.py"
+
+6. To run for without mongodb configuration, Run "python main.py"
+
+### With CSV
+
+Run "python main.py" which will generate csv files and store them in /data/csv folder 
+
+Please note that "main.ipynb" file doesn't run the fetch_tweets() method to avoid downloading the same tweets again and again. That's why "main.python" script has fetch_tweets() method enabled. 
+
+Once CSVs are downloaded, you can see all the reports in "main.ipynb" file.
+
+
